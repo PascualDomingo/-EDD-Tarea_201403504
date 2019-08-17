@@ -1,0 +1,23 @@
+// The round table
+digraph {
+	50 -> "null."
+	50 -> 40 [constraint=false]
+	40 -> 50 [constraint=false]
+	40 -> 30 [constraint=false]
+	30 -> 40 [constraint=false]
+	30 -> 20 [constraint=false]
+	20 -> 30 [constraint=false]
+	20 -> 10 [constraint=false]
+	10 -> 20 [constraint=false]
+	10 -> 100 [constraint=false]
+	100 -> 10 [constraint=false]
+	100 -> 200 [constraint=false]
+	200 -> 100 [constraint=false]
+	200 -> 300 [constraint=false]
+	300 -> 200 [constraint=false]
+	300 -> 400 [constraint=false]
+	400 -> 300 [constraint=false]
+	400 -> 500 [constraint=false]
+	500 -> 400 [constraint=false]
+	500 -> null
+}
