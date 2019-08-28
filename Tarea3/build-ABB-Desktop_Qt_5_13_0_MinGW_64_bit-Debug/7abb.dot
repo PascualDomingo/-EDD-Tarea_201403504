@@ -1,0 +1,27 @@
+digraph grafica{ 
+node [shape = record, style = filled, splines= line, location = none, fillcolor = seashell2]; 
+luigi [ label = "<iz>|luigi|<der>"] 
+
+luigi:iz -> hammer
+hammer [ label = "<iz>|hammer|<der>"] 
+
+hammer:iz -> fermin
+fermin [ label = "<iz>|fermin|<der>"] 
+
+fermin:iz -> edd
+edd [ label = "<iz>|edd|<der>"] 
+
+edd:iz -> boo
+boo [ label = "<iz>|boo|<der>"] 
+
+hammer:der -> kamek
+kamek [ label = "<iz>|kamek|<der>"] 
+
+luigi:der -> star
+star [ label = "<iz>|star|<der>"] 
+
+star:der -> whomp
+whomp [ label = "<iz>|whomp|<der>"] 
+
+
+}
